@@ -1,0 +1,9 @@
+from enum import Enum
+
+class AgentStatus(str, Enum):
+    IDLE = "IDLE"
+    RUNNING = "RUNNING"
+    WAITING_PERMISSIONS = "WAITING_PERMISSIONS"
+    COMPLETED = "COMPLETED"
+    FAILED = "FAILED"
+    TERMINATED = "TERMINATED"

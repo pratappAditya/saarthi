@@ -1,0 +1,13 @@
+Karthik Nair
+San Jose, CA | karthik.nair@example.com
+
+SUMMARY
+Electrical Hardware Engineer with 4 years designing PCB schematics, microcontrollers, and FPGA firmware.
+
+EXPERIENCE
+Embedded Systems Engineer | PowerTech Devices | 2021 - Present
+- Designed 6-layer high-speed PCB layouts using Altium Designer.
+- Developed C/C++ firmware for ARM Cortex-M microcontrollers.
+
+SKILLS
+Altium Designer, C/C++, Embedded Systems, FPGA, Oscilloscopes, SPI/I2C/UART

@@ -1,0 +1,1 @@
+Embedded Engineer required for C/C++ firmware, ARM Cortex microcontrollers, Altium PCB schematics, and hardware debugging.

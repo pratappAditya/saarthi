@@ -1,0 +1,1 @@
+Cloud Architect required to design multi-region AWS infrastructure, zero-trust security topologies, and cost-optimization strategies.

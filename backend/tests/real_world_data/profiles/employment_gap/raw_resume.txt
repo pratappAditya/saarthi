@@ -1,0 +1,16 @@
+Rachel Green
+Austin, TX | rachel.green@example.com
+
+SUMMARY
+Senior Software Engineer with 7 years of software development experience returning to engineering after 2-year family sabbatical.
+
+EXPERIENCE
+Senior Software Engineer | Enterprise Cloud Inc | 2017 - 2024
+- Built distributed microservices in Java Spring Boot and PostgreSQL.
+- Mentored junior engineers and conducted technical interviews.
+
+Sabbatical / Continuous Learning | 2024 - 2026
+- Upskilled in Python 3.12, local AI LLM orchestration, and modern React 19 architecture.
+
+SKILLS
+Java, Spring Boot, Python, PostgreSQL, REST APIs, Microservices, Git

@@ -1,0 +1,18 @@
+Pratap Aditya
+San Francisco, CA | pratap@example.com | github.com/pratap-dev
+
+SUMMARY
+Staff Frontend Architect with 8+ years designing high-throughput developer platforms, local-first client sync engines, and WebGL canvases. Reduced Time-to-Interactive by 42% across 12M monthly active users while saving $180,000 in compute costs.
+
+EXPERIENCE
+Staff Frontend Architect | Veloce Cloud Platform | 2022 - Present
+- Architected modular edge-rendered micro-frontend platform serving 12M MAU.
+- Reduced p99 bundle size by 64% using fine-grained AST tree-shaking and Vite plugins.
+- Authored automated accessibility CI test suite enforcing 100% WCAG 2.1 AA compliance.
+
+Senior Systems Engineer | Apex Data Labs | 2018 - 2022
+- Engineered high-density WebGL streaming table rendering 500,000 live rows at 60 FPS.
+- Rebuilt real-time CRDT sync engine with Web Workers and shared ArrayBuffers.
+
+SKILLS
+TypeScript, React 19, WebGL, Rust, WASM, Web Workers, Vite, Core Web Vitals, Local-First AI, Micro-Frontends

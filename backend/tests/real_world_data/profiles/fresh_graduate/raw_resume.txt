@@ -1,0 +1,15 @@
+Emily Watson
+Boston, MA | emily.watson@example.com
+
+SUMMARY
+Recent B.S. Computer Science graduate with strong academic foundation in algorithms, data structures, and Web development.
+
+EDUCATION
+B.S. Computer Science | Northeastern University | Graduated May 2026 (GPA: 3.8/4.0)
+
+PROJECTS
+Smart Career Dashboard (Capstone)
+- Built full-stack React and Python FastAPI app for job tracking.
+
+SKILLS
+Python, Java, C++, React, Git, HTML/CSS, Data Structures & Algorithms

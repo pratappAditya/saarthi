@@ -1,0 +1,95 @@
+# ==============================================================================
+# SAARTHI OPEN-SOURCE .GITIGNORE
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+
+# Node & Frontend dependencies
+node_modules/
+dist/
+dist-ssr/
+build/
+.next/
+*.local
+
+# Databases, WAL, SHM, Backups and Personal Data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.bak
+data/database/*.db*
+data/backups/
+data/logs/
+data/vault/
+data/workspaces/
+data/reports/
+data/screenshots/
+backend/data/*.db*
+
+# Machine Learning model weights and Ollama blobs
+models/blobs/
+models/manifests/
+*.bin
+*.onnx
+*.gguf
+*.safetensors
+
+# Large Media Files & Installers
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.exe
+*.msix
+*.msixupload
+*.appx
+*.appxbundle
+*.zip
+*.tar.gz
+*.7z
+release/
+installer_output/
+
+# Environment files & Secrets
+.env
+.env.*
+.env.local
+.env.staging
+.env.production
+!.env.example
+!.env.staging.example
+!.env.production.example
+
+# Scratch and Developer Temporary Files
+scratch/
+temp/
+tmp/
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json

@@ -1,0 +1,13 @@
+David Miller
+Chicago, IL | david.m@example.com
+
+SUMMARY
+Data Analyst with 2+ years executing SQL ETL pipelines, Tableau executive dashboards, and A/B testing statistical analyses.
+
+EXPERIENCE
+Data Analyst | Commerce Metrics | 2022 - Present
+- Created automated Tableau dashboards tracking $12M monthly recurring revenue.
+- Ran A/B experiments on checkout funnel, driving 4.2% conversion uplift.
+
+SKILLS
+SQL, PostgreSQL, Tableau, Python, Pandas, A/B Testing, Excel, PowerBI

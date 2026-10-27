@@ -1,0 +1,13 @@
+Michael Zhang
+New York, NY | michael.zhang@example.com
+
+SUMMARY
+Product Manager with 5 years launching developer tools and API platforms from 0-to-1.
+
+EXPERIENCE
+Senior PM | DevTools SaaS | 2021 - Present
+- Owned roadmap for developer API products, growing ARR from $1.5M to $6.8M in 24 months.
+- Led cross-functional squad of 12 software engineers and designers.
+
+SKILLS
+Product Strategy, User Research, Agile/Scrum, Wireframing, SQL, Mixpanel, Roadmapping

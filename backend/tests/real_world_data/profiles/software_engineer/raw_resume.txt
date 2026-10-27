@@ -1,0 +1,17 @@
+Alex Chen
+San Francisco, CA | alex.chen@example.com | github.com/alexchen-dev
+
+SUMMARY
+Software Engineer with 3+ years of experience building high-throughput web applications, Node.js microservices, and React design systems. Reduced p99 latency by 35% across 2M daily active users.
+
+EXPERIENCE
+Software Engineer | Veloce Systems | 2023 - Present
+- Spearheaded React 19 SPA migration, improving Core Web Vitals LCP from 3.2s to 1.1s.
+- Built GraphQL API gateway handling 45,000 requests per minute with Node.js and Redis.
+
+Junior Developer | Apex Labs | 2021 - 2023
+- Implemented automated CI/CD pipeline using GitHub Actions, cutting release cycles from 2 days to 15 minutes.
+- Maintained PostgreSQL schema migrations and optimized slow SQL queries.
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, Express, PostgreSQL, Redis, Docker, Git, CI/CD

@@ -1,0 +1,1 @@
+Frontend Engineer required to optimize Core Web Vitals, implement React component libraries, and drive Web accessibility standards.

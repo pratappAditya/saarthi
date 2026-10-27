@@ -1,0 +1,13 @@
+Samantha Brooks
+Denver, CO | sam.brooks@example.com
+
+SUMMARY
+DevOps Engineer with 6 years configuring AWS multi-region infrastructure, Terraform IAC, and ArgoCD Kubernetes deployments.
+
+EXPERIENCE
+Senior DevOps Engineer | CloudOps Global | 2020 - Present
+- Managed 12 Kubernetes clusters (EKS) spanning 400+ node instances using ArgoCD and Helm.
+- Engineered automated disaster recovery playbook with sub-5-minute RTO.
+
+SKILLS
+Kubernetes, Docker, Terraform, AWS, Ansible, Prometheus, Grafana, Python, Bash

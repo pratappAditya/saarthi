@@ -1,0 +1,15 @@
+Jordan Lee
+Atlanta, GA | jordan.lee@example.com
+
+SUMMARY
+Former Senior Account Manager transitioning into Data Analytics after completing intensive 6-month Data Engineering Bootcamp.
+
+EXPERIENCE
+Sales Account Manager | SaaS Tech | 2020 - 2025
+- Managed enterprise client portfolio generating $2.4M in annual revenue.
+
+Data Analytics Capstone Project | 2026
+- Built SQL revenue forecasting dashboard using Python, Pandas, and PostgreSQL.
+
+SKILLS
+SQL, Python, Pandas, Excel, Tableau, Client Communication, Business Intelligence

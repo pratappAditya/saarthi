@@ -1,0 +1,13 @@
+James Wilson
+Detroit, MI | james.wilson@example.com
+
+SUMMARY
+Mechanical Engineer with 4 years designing precision automotive components, SolidWorks 3D models, and GD&T tolerance stacks.
+
+EXPERIENCE
+Mechanical Design Engineer | AutoDrive Components | 2022 - Present
+- Designed thermal management enclosures using SolidWorks and Ansys FEA.
+- Reduced component manufacturing defect rate by 22% through strict GD&T audits.
+
+SKILLS
+SolidWorks, AutoCAD, Ansys FEA, GD&T, DFM/DFA, CNC Machining, Thermal Analysis

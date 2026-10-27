@@ -1,0 +1,313 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-primary: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-display: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Base Colors - Signature Dark (Default) */
+    --bg-app: #0c0e12;
+    --bg-surface: #13171f;
+    --bg-surface-elevated: #1a202c;
+    --bg-surface-active: #222a3a;
+    --bg-subtle: #161b24;
+    --border-subtle: rgba(255, 255, 255, 0.07);
+    --border-strong: rgba(255, 255, 255, 0.14);
+    --border-focus: #3b82f6;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --text-inverse: #0f172a;
+
+    --accent-primary: #3b82f6;
+    --accent-primary-hover: #2563eb;
+    --accent-subtle: rgba(59, 130, 246, 0.12);
+    --accent-text: #60a5fa;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 18px;
+    --radius-full: 9999px;
+
+    --shadow-card: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+    --shadow-elevated: 0 12px 36px -4px rgba(0, 0, 0, 0.6);
+  }
+
+  /* =======================================================
+     EXPERIENCE MODE: SIGNATURE (Refined, Editorial, Balanced)
+     ======================================================= */
+  [data-mode="signature"] {
+    --font-primary: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Instrument Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 18px;
+  }
+
+  [data-mode="signature"][data-theme="dark"] {
+    --bg-app: #0b0e14;
+    --bg-surface: #121722;
+    --bg-surface-elevated: #19202f;
+    --bg-surface-active: #202a3d;
+    --bg-subtle: #151b27;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+  }
+
+  [data-mode="signature"][data-theme="light"] {
+    --bg-app: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #f1f5f9;
+    --bg-surface-active: #e2e8f0;
+    --bg-subtle: #f8fafc;
+    --border-subtle: rgba(15, 23, 42, 0.08);
+    --border-strong: rgba(15, 23, 42, 0.16);
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --text-inverse: #ffffff;
+    --shadow-card: 0 2px 10px rgba(15, 23, 42, 0.05);
+    --shadow-elevated: 0 10px 25px rgba(15, 23, 42, 0.08);
+  }
+
+  /* =======================================================
+     EXPERIENCE MODE: FORGE (Technical, Monospace, Sharp)
+     ======================================================= */
+  [data-mode="forge"] {
+    --font-primary: 'Space Grotesk', system-ui, sans-serif;
+    --font-display: 'Space Grotesk', monospace, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 6px;
+    --radius-xl: 8px;
+  }
+
+  [data-mode="forge"][data-theme="dark"] {
+    --bg-app: #08090b;
+    --bg-surface: #0f1115;
+    --bg-surface-elevated: #16191f;
+    --bg-surface-active: #1d222b;
+    --bg-subtle: #0d0f13;
+    --border-subtle: rgba(255, 255, 255, 0.12);
+    --border-strong: rgba(255, 255, 255, 0.24);
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --shadow-card: none;
+    --shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.7);
+  }
+
+  [data-mode="forge"][data-theme="light"] {
+    --bg-app: #f4f4f5;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #e4e4e7;
+    --bg-surface-active: #d4d4d8;
+    --bg-subtle: #f4f4f5;
+    --border-subtle: rgba(0, 0, 0, 0.15);
+    --border-strong: rgba(0, 0, 0, 0.3);
+    --text-primary: #09090b;
+    --text-secondary: #52525b;
+    --text-muted: #a1a1aa;
+    --text-inverse: #ffffff;
+  }
+
+  /* =======================================================
+     EXPERIENCE MODE: PULSE (Energetic, High Contrast, Dynamic)
+     ======================================================= */
+  [data-mode="pulse"] {
+    --font-primary: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-xl: 26px;
+  }
+
+  [data-mode="pulse"][data-theme="dark"] {
+    --bg-app: #090a10;
+    --bg-surface: #10131d;
+    --bg-surface-elevated: #181d2c;
+    --bg-surface-active: #22293e;
+    --bg-subtle: #121623;
+    --border-subtle: rgba(255, 255, 255, 0.1);
+    --border-strong: rgba(255, 255, 255, 0.2);
+    --text-primary: #ffffff;
+    --text-secondary: #9aa8bc;
+    --text-muted: #64748b;
+    --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  [data-mode="pulse"][data-theme="light"] {
+    --bg-app: #f6f7fb;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #edf0f8;
+    --bg-surface-active: #e2e6f3;
+    --bg-subtle: #f6f7fb;
+    --border-subtle: rgba(16, 19, 29, 0.09);
+    --border-strong: rgba(16, 19, 29, 0.18);
+    --text-primary: #0d111a;
+    --text-secondary: #4b5563;
+    --text-muted: #9ca3af;
+    --text-inverse: #ffffff;
+  }
+
+  /* =======================================================
+     EXPERIENCE MODE: AURORA (Atmospheric, Luminous, Cosmic)
+     ======================================================= */
+  [data-mode="aurora"] {
+    --font-primary: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-display: 'Instrument Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --radius-sm: 10px;
+    --radius-md: 16px;
+    --radius-lg: 22px;
+    --radius-xl: 28px;
+  }
+
+  [data-mode="aurora"][data-theme="dark"] {
+    --bg-app: #080a12;
+    --bg-surface: #0e1220;
+    --bg-surface-elevated: #141b30;
+    --bg-surface-active: #1c2542;
+    --bg-subtle: #0f1424;
+    --border-subtle: rgba(147, 197, 253, 0.1);
+    --border-strong: rgba(147, 197, 253, 0.22);
+    --text-primary: #f1f5f9;
+    --text-secondary: #93c5fd;
+    --text-muted: #64748b;
+    --shadow-card: 0 8px 32px -4px rgba(15, 23, 42, 0.7), 0 0 20px -2px rgba(56, 189, 248, 0.08);
+  }
+
+  [data-mode="aurora"][data-theme="light"] {
+    --bg-app: #f0f4f9;
+    --bg-surface: #ffffff;
+    --bg-surface-elevated: #e6eef8;
+    --bg-surface-active: #d6e4f5;
+    --bg-subtle: #f0f4f9;
+    --border-subtle: rgba(30, 58, 138, 0.08);
+    --border-strong: rgba(30, 58, 138, 0.18);
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --text-inverse: #ffffff;
+  }
+
+  /* =======================================================
+     ACCENTS
+     ======================================================= */
+  [data-accent="sapphire"] {
+    --accent-primary: #3b82f6;
+    --accent-primary-hover: #2563eb;
+    --accent-subtle: rgba(59, 130, 246, 0.14);
+    --accent-text: #60a5fa;
+  }
+
+  [data-accent="emerald"] {
+    --accent-primary: #10b981;
+    --accent-primary-hover: #059669;
+    --accent-subtle: rgba(16, 185, 129, 0.14);
+    --accent-text: #34d399;
+  }
+
+  [data-accent="amber"] {
+    --accent-primary: #f59e0b;
+    --accent-primary-hover: #d97706;
+    --accent-subtle: rgba(245, 158, 11, 0.14);
+    --accent-text: #fbbf24;
+  }
+
+  [data-accent="amethyst"] {
+    --accent-primary: #8b5cf6;
+    --accent-primary-hover: #7c3aed;
+    --accent-subtle: rgba(139, 92, 246, 0.14);
+    --accent-text: #a78bfa;
+  }
+
+  [data-accent="rose"] {
+    --accent-primary: #f43f5e;
+    --accent-primary-hover: #e11d48;
+    --accent-subtle: rgba(244, 63, 94, 0.14);
+    --accent-text: #fb7185;
+  }
+
+  [data-accent="cyan"] {
+    --accent-primary: #06b6d4;
+    --accent-primary-hover: #0891b2;
+    --accent-subtle: rgba(6, 182, 212, 0.14);
+    --accent-text: #22d3ee;
+  }
+
+  /* =======================================================
+     DENSITY
+     ======================================================= */
+  [data-density="comfortable"] {
+    --space-card: 1.5rem;
+    --space-item-y: 0.75rem;
+    --space-item-x: 1rem;
+    --gap-grid: 1.25rem;
+    --font-scale: 1;
+  }
+
+  [data-density="compact"] {
+    --space-card: 1rem;
+    --space-item-y: 0.5rem;
+    --space-item-x: 0.75rem;
+    --gap-grid: 0.875rem;
+    --font-scale: 0.95;
+  }
+
+  [data-density="dense"] {
+    --space-card: 0.75rem;
+    --space-item-y: 0.35rem;
+    --space-item-x: 0.5rem;
+    --gap-grid: 0.625rem;
+    --font-scale: 0.9;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-strong);
+}
+
+/* Glassmorphism helpers only where contextual */
+.glass-panel {
+  background: var(--bg-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+}
+
+/* Monospace font utility */
+.font-mono-code {
+  font-family: var(--font-mono);
+}
+
+.font-display-title {
+  font-family: var(--font-display);
+}
+

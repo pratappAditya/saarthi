@@ -1,0 +1,13 @@
+Dr. Elena Rostova
+Boston, MA | elena.rostova@example.com
+
+SUMMARY
+Data Scientist with Ph.D. in Computational Statistics and 4 years of industry experience deploying PyTorch NLP models and recommendation algorithms.
+
+EXPERIENCE
+Senior ML Engineer | Cognitive AI Labs | 2022 - Present
+- Fine-tuned 7B parameter Transformer models for semantic retrieval, boosting precision@k by 18%.
+- Built real-time feature store using Feast and Redis.
+
+SKILLS
+Python, PyTorch, TensorFlow, Scikit-Learn, Transformers, MLOps, MLflow, AWS SageMaker

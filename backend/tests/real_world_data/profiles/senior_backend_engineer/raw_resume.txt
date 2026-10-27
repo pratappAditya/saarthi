@@ -1,0 +1,17 @@
+Marcus Vance
+Austin, TX | marcus.vance@example.com | linkedin.com/in/marcus-vance
+
+SUMMARY
+Senior Distributed Systems Engineer with 8 years of experience designing fault-tolerant Go microservices, Kafka event streams, and Kubernetes infrastructure. Led 6 engineers across 3 infrastructure squads.
+
+EXPERIENCE
+Staff Backend Architect | CloudScale Data | 2022 - Present
+- Architected multi-region Kafka streaming cluster handling 1.2M events/sec with 99.999% availability.
+- Reduced cloud infrastructure spending by $240,000 annually through Rust WASM sidecar optimizations.
+
+Senior Software Engineer | Datacity Inc | 2018 - 2022
+- Designed gRPC microservices in Go for distributed transaction processing.
+- Implemented OpenTelemetry tracing across 140 microservices.
+
+SKILLS
+Go, Rust, Python, Distributed Systems, Kafka, Kubernetes, gRPC, PostgreSQL, Cassandra, AWS

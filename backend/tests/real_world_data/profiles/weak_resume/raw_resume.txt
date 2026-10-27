@@ -1,0 +1,15 @@
+John Doe
+Email: john@test.com | Phone: 555-0199
+
+Job History:
+Worked at Company X (2022-2024)
+- Was responsible for writing code.
+- Fixed bugs in website.
+- Helped team members with tasks.
+
+Worked at Company Y (2020-2022)
+- Handled daily duties.
+- Attended team meetings.
+
+Skills:
+Computers, Coding, Python, HTML

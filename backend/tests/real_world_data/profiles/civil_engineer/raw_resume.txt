@@ -1,0 +1,13 @@
+Anita Patel
+Houston, TX | anita.patel@example.com
+
+SUMMARY
+Civil Engineer with 3 years managing commercial structural analysis, AutoCAD blueprints, and site safety compliance.
+
+EXPERIENCE
+Structural Engineer | Landmark Infrastructure | 2022 - Present
+- Conducted structural load calculations for 14-story commercial building projects.
+- Supervised on-site concrete foundation pours and steel frame inspections.
+
+SKILLS
+AutoCAD, STAAD.Pro, Revit, Structural Load Analysis, Site Inspection, Building Codes

@@ -1,0 +1,1 @@
+QA Automation Engineer skilled in Playwright, Cypress, Python pytest, and CI/CD test orchestration.

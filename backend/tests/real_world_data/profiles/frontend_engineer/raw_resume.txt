@@ -1,0 +1,13 @@
+Priya Sharma
+Seattle, WA | priya.sharma@example.com
+
+SUMMARY
+Frontend Engineer with 5 years specializing in web performance, micro-frontends, and accessible design systems.
+
+EXPERIENCE
+Lead Frontend Engineer | UI Modern | 2022 - Present
+- Built semantic token design system consumed by 18 product teams.
+- Optimized Interaction to Next Paint (INP) to sub-50ms on financial dashboards.
+
+SKILLS
+TypeScript, React, Next.js, TailwindCSS, WebGL, Vite, Web Vitals, Accessibility (WCAG 2.1)

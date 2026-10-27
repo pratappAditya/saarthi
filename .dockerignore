@@ -1,0 +1,47 @@
+# ==============================================================================
+# SAARTHI DOCKER BUILD IGNORE
+# ==============================================================================
+
+# Version control
+.git
+.gitignore
+
+# Python virtual environments & build caches
+.venv
+venv
+ENV
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+.coverage
+htmlcov
+
+# Node dependencies and local build outputs
+**/node_modules
+**/dist
+**/.vite
+**/.cache
+
+# Application data & local databases
+data/
+scratch/
+saarthi_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files and credentials
+.env
+.env.*
+!.env.staging.example
+
+# Release bundles and desktop build artifacts
+release/
+build/
+installer/
+dist/
+*.exe
+*.zip
+*.tar.gz
+*.mp4
